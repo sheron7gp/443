@@ -1,0 +1,21 @@
+---
+protocol-key-pair: X6NgfykcUoHSsrYRBn8LvmCy70hQeHRJNXPJKJ73yCWr0Nih2UO5aH2Lt08xuo0X0ctApyfEol4KMT8vq5OnFZu/HTsRhC+ADDMYuQH8bkAAqZ4sXPZPeuVbVaWCPPJ0te0zAZ+bk0TbXrAxGH6v02tLqPp35dptkOmzoCiXHTs=
+worker-key-pair: huX1R5jioz9VFHDE9SrkTzehamkj3JX3Asj/UPthnlVLCOiGuUENR3JtSq/74UCdlUInw1+qK40Up1DI6iIdgg==
+account-key-pair: AIeMmMSzuUuEYe4JCDMzaTMcubarV5w3df8cdV96D22m7N5+0DkKPzyEfc1bXS5admpTkdtdYbc8SVPvPoIecNo=
+network-key-pair: /zO787N/ewgQICDmGeZYfHCWGlWxyYMg0DnFN9uB/DT6L8tcefSTiVITf1mq/baAcjxBvEpuiYbD/gEosDCXpw==
+db-path: /Users/w1q/.sui/sui_config/authorities_db/full_node_db
+network-address: /ip4/127.0.0.1/tcp/54277/http
+json-rpc-address: "0.0.0.0:9000"
+websocket-address: "0.0.0.0:9001"
+metrics-address: "127.0.0.1:54281"
+admin-interface-port: 54283
+enable-event-processing: true
+enable-gossip: true
+enable-checkpoint: true
+enable-reconfig: false
+grpc-load-shed: ~
+grpc-concurrency-limit: ~
+p2p-config:
+  listen-address: "127.0.0.1:54279"
+genesis:
+  genesis-file-location: /Users/w1q/.sui/sui_config/genesis.blob

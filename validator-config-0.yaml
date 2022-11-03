@@ -1,0 +1,50 @@
+---
+protocol-key-pair: Hlm+B9XWCBEK2WJRAS8INHn6QHgQvdjIWKdLSFRapwipmP913tnYsNxVa6zIDD6kX5dyMvnR1Jw4PbBfbxBBicrQzjD8Fg5UuXD7dHEklvwH+/rpogQTqO4YD86tQ8302s/UN0+NDI1ZDL8ip1G/keuaNdzcRFGt44Y0ec0xfkE=
+worker-key-pair: /CV0B/2S8ESSyCoy9UsuCGnkD5svDqz4apEDaUFy/mDPGNpbj5qKMlfS6kJ0NuFgS8tE+jp0HYxtmPoMkhOhNA==
+account-key-pair: AHNVurHlZMlxmGGWOhXosDRliFUh8k4Mrj5vCnd/st754WyRta6HbDdTB1sQG/ueLLzAJA8LITZHFFpNy3VGd+I=
+network-key-pair: +SNEUfUsfMUhF2kkjeynLN2sEH0bdjQoVqyfcxfpPvr2fBIZnDKpPfz7g8wn+Nmu4XQHCzcuA0+igIIGYKa0WQ==
+db-path: /Users/w1q/.sui/sui_config/authorities_db/a998ff75ded9d8b0dc556bacc80c3ea45f977232f9d1d49c383db05f6f104189cad0ce30fc160e54b970fb74712496fc07fbfae9a20413a8ee180fcead43cdf4dacfd4374f8d0c8d590cbf22a751bf91eb9a35dcdc4451ade3863479cd317e41
+network-address: /ip4/127.0.0.1/tcp/54181/http
+json-rpc-address: "127.0.0.1:54227"
+websocket-address: ~
+metrics-address: "127.0.0.1:54223"
+admin-interface-port: 54225
+consensus-config:
+  consensus-address: /ip4/127.0.0.1/tcp/54187/http
+  consensus-db-path: /Users/w1q/.sui/sui_config/consensus_db/a998ff75ded9d8b0dc556bacc80c3ea45f977232f9d1d49c383db05f6f104189cad0ce30fc160e54b970fb74712496fc07fbfae9a20413a8ee180fcead43cdf4dacfd4374f8d0c8d590cbf22a751bf91eb9a35dcdc4451ade3863479cd317e41
+  timeout-secs: 60
+  narwhal-config:
+    header_num_of_batches_threshold: 32
+    max_header_num_of_batches: 1000
+    max_header_delay: 100ms
+    gc_depth: 50
+    sync_retry_delay: 5000ms
+    sync_retry_nodes: 3
+    batch_size: 500000
+    max_batch_delay: 100ms
+    block_synchronizer:
+      range_synchronize_timeout: 30000ms
+      certificates_synchronize_timeout: 30000ms
+      payload_synchronize_timeout: 30000ms
+      payload_availability_timeout: 30000ms
+      handler_certificate_deliver_timeout: 30000ms
+    consensus_api_grpc:
+      socket_addr: /ip4/127.0.0.1/tcp/54213/http
+      get_collections_timeout: 5000ms
+      remove_collections_timeout: 5000ms
+    max_concurrent_requests: 500000
+    prometheus_metrics:
+      socket_addr: /ip4/127.0.0.1/tcp/54215/http
+    network_admin_server:
+      primary_network_admin_server_port: 54217
+      worker_network_admin_server_base_port: 54219
+enable-event-processing: false
+enable-gossip: true
+enable-checkpoint: true
+enable-reconfig: false
+grpc-load-shed: ~
+grpc-concurrency-limit: 20000000000
+p2p-config:
+  listen-address: "127.0.0.1:54221"
+genesis:
+  genesis-file-location: /Users/w1q/.sui/sui_config/genesis.blob

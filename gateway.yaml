@@ -1,0 +1,59 @@
+---
+epoch: 0
+validator_set:
+  - name: validator-2
+    account-key: AHFi5w+CCJubRsI1Oau02XlShEzGgSVA9DuLbcXAgbr8
+    protocol-key: jMU82ZqjvuIAI83StSaPSC+QHjmZgiOlZUEvvZkFeri5DRt5dWPxahMzmZ4cKeCcFGZqAe6pMkgeyT273kfWc7kYhZpuK8aZMXOeSAfipvjJdEltIXGDU2wg+taU4NIw
+    worker-key: omD4v0F1Z4EDvQ1SoepnJs9hOIy6OAwJhQID5BsatkI=
+    network-key: pelJizLv30PGZrKJ4Mz4ripcUfLi8lewutV+aK8Ifs0=
+    stake: 100000000000000
+    delegation: 0
+    gas-price: 1
+    network-address: /ip4/127.0.0.1/tcp/54197/http
+    narwhal-primary-address: /ip4/127.0.0.1/tcp/54199/http
+    narwhal-worker-address: /ip4/127.0.0.1/tcp/54201/http
+    narwhal-consensus-address: /ip4/127.0.0.1/tcp/54203/http
+  - name: validator-3
+    account-key: AELjqkTr7esCJMSIJvMsEnsNk99SOuOZkE3eu4DdXH2V
+    protocol-key: j30Aa0ISovdJmCZIUC2/TN+kfpUUuHN80Uu2T42L8XMYAddmUeMUs6FCtAUZPmroFN/VDGbGngb5145uI2hFXRkPBNvUAqp7l1pWFGQvVq2wA0WbgsY5AvoYdnWj1+8a
+    worker-key: 4h54Zy1CuBNj8wPnHWlYAs+2PBmEnNo9+O49BUJGAO0=
+    network-key: LPrn5cAc3O0rahadaIHUFQYMC7GmYO+o8MMu51hCsK8=
+    stake: 100000000000000
+    delegation: 0
+    gas-price: 1
+    network-address: /ip4/127.0.0.1/tcp/54205/http
+    narwhal-primary-address: /ip4/127.0.0.1/tcp/54207/http
+    narwhal-worker-address: /ip4/127.0.0.1/tcp/54209/http
+    narwhal-consensus-address: /ip4/127.0.0.1/tcp/54211/http
+  - name: validator-1
+    account-key: ADlvhFQTZyXZhzQHp1q4Za0VOkGIlKdTFAeGhI7X2eQp
+    protocol-key: kOJzxk+y6fOTNOTYW3qv76ortlQXjdDGxuc2shOlx0s0Y1E6i3hEmbkPaOehi53oBhcqLdEAmKKF9YihZLoewt/zIPwuXtgwVEq8s3OdZgLpM7/1aoL3tYIpKfFANLf6
+    worker-key: e2TEoUmeJ7V/MT5/WBH0WQd/zt+/owE23i90WE7Dciw=
+    network-key: BJbmdrEI00ipc8hqxY6Y1nYnRRugqnDIZGAKSnxgJUU=
+    stake: 100000000000000
+    delegation: 0
+    gas-price: 1
+    network-address: /ip4/127.0.0.1/tcp/54189/http
+    narwhal-primary-address: /ip4/127.0.0.1/tcp/54191/http
+    narwhal-worker-address: /ip4/127.0.0.1/tcp/54193/http
+    narwhal-consensus-address: /ip4/127.0.0.1/tcp/54195/http
+  - name: validator-0
+    account-key: AHNVurHlZMlxmGGWOhXosDRliFUh8k4Mrj5vCnd/st75
+    protocol-key: qZj/dd7Z2LDcVWusyAw+pF+XcjL50dScOD2wX28QQYnK0M4w/BYOVLlw+3RxJJb8B/v66aIEE6juGA/OrUPN9NrP1DdPjQyNWQy/IqdRv5HrmjXc3ERRreOGNHnNMX5B
+    worker-key: zxjaW4+aijJX0upCdDbhYEvLRPo6dB2MbZj6DJIToTQ=
+    network-key: 9nwSGZwyqT38+4PMJ/jZruF0Bws3LgNPooCCBmCmtFk=
+    stake: 100000000000000
+    delegation: 0
+    gas-price: 1
+    network-address: /ip4/127.0.0.1/tcp/54181/http
+    narwhal-primary-address: /ip4/127.0.0.1/tcp/54183/http
+    narwhal-worker-address: /ip4/127.0.0.1/tcp/54185/http
+    narwhal-consensus-address: /ip4/127.0.0.1/tcp/54187/http
+send_timeout:
+  secs: 4
+  nanos: 0
+recv_timeout:
+  secs: 4
+  nanos: 0
+buffer_size: 650000
+db_folder_path: /Users/w1q/.sui/sui_config/gateway_client_db
